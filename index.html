@@ -1,0 +1,159 @@
+<title>Ankush Kumar Resume</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+/* Layout: single centered resume sheet, navy headings, Charter serif — mirrors the PDF */
+:root{
+  --bg:#eef1f6; --paper:#ffffff; --ink:#1d2330; --muted:#4f586a; --navy:#1f3a68; --rule:#cfd6e3; --chip:#e8edf6;
+  --serif:Charter,"Bitstream Charter","Sitka Text",Cambria,Georgia,serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0f1420; --paper:#161d2b; --ink:#e3e8f1; --muted:#a4aec2; --navy:#8fb0e8; --rule:#2c3750; --chip:#1f2a40; color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0f1420; --paper:#161d2b; --ink:#e3e8f1; --muted:#a4aec2; --navy:#8fb0e8; --rule:#2c3750; --chip:#1f2a40; color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font-family:var(--serif);font-size:15px;line-height:1.55;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px}
+.sheet{max-width:860px;margin:0 auto;background:var(--paper);border:1px solid var(--rule);border-radius:4px;padding:40px clamp(18px,5vw,52px)}
+header{text-align:center;display:grid;gap:6px;padding-bottom:18px;border-bottom:2px solid var(--navy)}
+h1{margin:0;font-size:2rem;letter-spacing:.06em;color:var(--navy);text-wrap:balance}
+.tag{color:var(--muted);font-size:.98rem}
+.contact{display:flex;flex-wrap:wrap;justify-content:center;gap:4px 14px;font-size:.92rem}
+.contact a,.contact span{color:var(--ink);text-decoration:none;user-select:all}
+.contact a:hover{color:var(--navy);text-decoration:underline}
+.copy{font:inherit;font-size:.8rem;border:1px solid var(--rule);background:var(--chip);color:var(--navy);border-radius:3px;padding:1px 8px;cursor:pointer}
+.copy:focus-visible,a:focus-visible{outline:2px solid var(--navy);outline-offset:2px}
+h2{font-size:1rem;letter-spacing:.12em;text-transform:uppercase;color:var(--navy);margin:26px 0 10px;padding-bottom:4px;border-bottom:1px solid var(--rule)}
+p{margin:0}
+ul{margin:6px 0 0;padding-left:20px;display:grid;gap:5px}
+.job{margin-top:16px}
+.job:first-of-type{margin-top:0}
+.jh{display:flex;flex-wrap:wrap;justify-content:space-between;gap:2px 16px}
+.jh strong{color:var(--ink)}
+.role{font-style:italic;color:var(--muted)}
+.meta{color:var(--muted);font-size:.9rem;font-variant-numeric:tabular-nums;white-space:nowrap}
+.skills li b{color:var(--navy);font-weight:600}
+.comp{color:var(--muted)}
+.dl{margin-top:22px;text-align:center;font-size:.85rem;color:var(--muted)}
+@media (max-width:520px){.sheet{padding-block:26px} h1{font-size:1.6rem} .meta{white-space:normal}}
+</style>
+
+<main class="sheet">
+<header>
+  <h1>ANKUSH KUMAR</h1>
+  <div class="tag">Full Stack Developer | 3.5+ Years | Angular | React.js | Node.js | Python (FastAPI)</div>
+  <div class="contact">
+    <span>ankush.bzrms@gmail.com</span><button class="copy" id="copy-email" data-v="ankush.bzrms@gmail.com">Copy</button>
+    <span>+91-9065815648</span><button class="copy" id="copy-phone" data-v="+91-9065815648">Copy</button>
+    <span>Noida, India</span>
+  </div>
+  <div class="contact">
+    <a href="https://linkedin.com/in/ankus1" target="_blank" rel="noopener">linkedin.com/in/ankus1</a>
+    <a href="https://github.com/ankuskr" target="_blank" rel="noopener">github.com/ankuskr</a>
+    <a href="https://hackerrank.com/profile/ankush_bzrms" target="_blank" rel="noopener">hackerrank.com/profile/ankush_bzrms</a>
+  </div>
+</header>
+
+<h2>Professional Summary</h2>
+<p>Full Stack Developer (MEAN / MERN) with 3.5+ years of experience crafting scalable web applications, RESTful APIs, and real-time systems across fintech, ed-tech, CRM, and e-commerce domains. Specialized in Angular, React.js, Node.js, NestJS, Python (FastAPI), and TypeScript, with strong database expertise across MySQL, PostgreSQL, MongoDB, and Redis. Experienced in WebSockets, Microservices, Docker, and AWS deployments on Linux, along with JWT/OAuth authentication and Role-Based Access Control. Shipped an algorithmic trading platform, high-volume examination systems serving 100,000+ users, and an end-to-end e-commerce platform for a startup. Owns features end to end, from database design and APIs to UI, deployment, and production support. Open to relocation.</p>
+
+<h2>Technical Skills</h2>
+<ul class="skills">
+  <li><b>Languages:</b> JavaScript (ES6+), TypeScript, Python, SQL, C, C++</li>
+  <li><b>Front-End:</b> Angular, React.js, Next.js, HTML5, CSS3, Tailwind CSS, Bootstrap, Angular Material, Redux Toolkit, jQuery, ngx-translate (i18n / Localization), Responsive UI Design</li>
+  <li><b>Back-End:</b> Node.js, NestJS, Express.js, FastAPI, Pydantic, SQLAlchemy, Alembic, Gunicorn, Uvicorn, RESTful APIs, WebSockets, Socket.IO, Microservices, Nx Monorepo</li>
+  <li><b>Databases:</b> MySQL, PostgreSQL, MongoDB, Redis, Schema Design, Multi-Tenant Databases, Query Optimization, Database Migrations</li>
+  <li><b>Security &amp; Auth:</b> JWT, OAuth 2.0, Role-Based Access Control (RBAC), Google reCAPTCHA, Input Validation</li>
+  <li><b>Cloud &amp; DevOps:</b> AWS (EC2, S3), Docker, Nginx, CI/CD, Linux (Ubuntu), Git, GitHub</li>
+  <li><b>Testing &amp; Practices:</b> Jest, Unit Testing, API Testing, Postman, Swagger / OpenAPI, Agile, Scrum, JIRA, Code Reviews, SDLC</li>
+  <li><b>AI Tools:</b> Claude (AI-assisted development, code review)</li>
+</ul>
+
+<h2>Core Competencies</h2>
+<p class="comp">Full Stack Development | REST API Design | Real-Time Systems | Database Design &amp; Query Optimization | Performance Optimization | Authentication &amp; Authorization | Microservices Architecture | Multi-Tenant SaaS | Legacy Migration (Strangler Pattern) | Reusable Component Design | Code Review | Data Structures &amp; Algorithms | OOP | Debugging &amp; Troubleshooting | Production Support | Remote Collaboration</p>
+
+<h2>Work Experience</h2>
+
+<section class="job">
+  <div class="jh"><strong>Bitmax Technology Pvt. Ltd. (Bitmax Group)</strong><span class="meta">Aug 2026 – Present | Noida, India</span></div>
+  <div class="role">Full Stack Developer – React.js / Node.js / NestJS</div>
+  <ul>
+    <li>Enhanced a multi-tenant CRM and customer support platform for Bitmax Group (bitmaxgroup.com) using React.js, Redux Toolkit, and Tailwind CSS on the frontend and Node.js, Express.js, and MongoDB on the backend, with a separate database per organization.</li>
+    <li>Secured the platform with Role-Based Access Control (RBAC) and configurable permissions for 4 roles (Admin, TL, QA, Agent), enforced in both the UI and the REST APIs; resolved tenant routing and query acceptance issues.</li>
+    <li>Shipped a QA quality evaluation module with weighted scorecards, letting QA rate each L1/L2 agent on a query separately, with post-save summaries, edit flow, performance bands, Pass/Fail results, CSV/XLSX exports, and role-based edit/view access.</li>
+    <li>Introduced a 3-tier ticket escalation flow (Tier-1, Tier-2, Tier-3) with QA fallback, plus backend validation that prevents escalation to the wrong level and keeps routing consistent.</li>
+    <li>Rolled out a real-time Team Workspace chat with Socket.IO, and extended email ticketing (IMAP/SMTP), live query chat, and agent attendance and activity tracking.</li>
+    <li>Initiated migration of the legacy Express.js backend to NestJS and TypeScript in an Nx monorepo using the strangler pattern – new APIs served under /api/v2 while remaining routes (including Socket.IO) are proxied to the legacy service – enabling a module-by-module, zero-downtime move; set up environment validation and a standard API response format.</li>
+    <li>Owned deployment and server management for the CRM: set up and maintained the production server, configured environments, deployed releases, and monitored and fixed live issues to keep the application stable.</li>
+  </ul>
+</section>
+
+<section class="job">
+  <div class="jh"><strong>StatifyAlgo Pvt. Ltd. (formerly Agio Support)</strong><span class="meta">Jun 2025 – Jul 2026 | Noida, India</span></div>
+  <div class="role">Full Stack Developer – Python / React.js / FastAPI, Angular / Node</div>
+  <ul>
+    <li>Enhanced a fintech algorithmic trading platform (gotobots.ai) powering 12+ trading bots, including Grid and DCA strategies, using Python, FastAPI, React.js, and WebSockets for real-time market data streaming and bot monitoring.</li>
+    <li>Engineered 15+ RESTful API endpoints with FastAPI and SQLAlchemy ORM, integrating MySQL and MongoDB for trading data, transactions, bot configurations, and authentication; tuned queries to cut API latency by 20%.</li>
+    <li>Created React.js dashboards and an Angular and Node.js admin portal for real-time monitoring, user management, subscriptions, and strategy configuration across 12+ platform workflows.</li>
+    <li>Deployed 10+ application services on AWS EC2 and Linux using Docker and Nginx, handling environment setup, process management, production logging, and troubleshooting for high availability.</li>
+    <li>Split the production backend into 3 independent Gunicorn/Uvicorn services (main REST API, WebSocket server, crypto trading engine), isolating real-time streaming from core API traffic.</li>
+    <li>Integrated Google OAuth sign-in and Google reCAPTCHA into the platform’s authentication flow, strengthening login security and blocking bot sign-ups.</li>
+    <li>Maintained database schema changes with Alembic migrations, and resolved a critical migration failure caused by PostgreSQL-specific syntax in a MySQL environment, restoring a clean, reproducible schema.</li>
+    <li>Improved code quality across 10+ production features through code reviews, unit testing, API testing, and refactoring, using AI-assisted development (Claude) with independent validation, reducing post-release defects by 15%.</li>
+  </ul>
+</section>
+
+<section class="job">
+  <div class="jh"><strong>Diversified Business Solution (Examonline &amp; Registration Online)</strong><span class="meta">Feb 2024 – Jun 2025 | Noida, India</span></div>
+  <div class="role">Software Developer – Angular / Node.js / NestJS</div>
+  <ul>
+    <li>Delivered 10+ application modules for the Examonline platform using Angular, Node.js, NestJS, TypeScript, and SQL, including reusable UI components, RESTful APIs, form processing, and database integrations.</li>
+    <li>Owned end-to-end development of the 7-feature Exam Management module – exam configuration, section configuration, evaluator allocation, slot scheduling, certificate generation, retake/re-attempt workflows, and email notification templates (Angular UI backed by NestJS DTOs/entities) – covering the complete exam lifecycle from creation to candidate certification.</li>
+    <li>Optimized Angular modules, Node.js services, and SQL queries for examination and registration workflows processing 100,000+ records, achieving 30% faster data retrieval.</li>
+    <li>Implemented JWT authentication and Role-Based Access Control (RBAC) across 5+ user roles, securing examination, registration, and administrative workflows.</li>
+    <li>Localized 3 Angular applications into 2 languages with an ngx-translate service (admin console, candidate exam app, registration portal), resolving locale-specific rendering issues for essay/short-answer question types and admin screens.</li>
+    <li>Extended the live-proctoring dashboard with candidate search and monitoring/report display fixes, improving proctors’ ability to track candidates in real time during active exam sessions.</li>
+    <li>Designed 3 reusable reporting UI components (data tables, advanced search, process-score widgets) shared across 3 report modules (registration, exam-detail, question-bank), and co-developed backend PDF/Excel export services for question-analysis and question-bank downloads.</li>
+    <li>Created 10+ registration forms and workflows using jQuery and SQL with client-side and server-side validation, reducing data entry errors by 25%.</li>
+    <li>Tested REST APIs and workflows across 10+ modules using Jest, Postman, and Swagger, covering edge cases, debugging, and release verification, with zero critical issues in production deployments.</li>
+  </ul>
+</section>
+
+<section class="job">
+  <div class="jh"><strong>Shop Bonanza – E-Commerce Platform (Startup)</strong><span class="meta">Jan 2023 – Jan 2024 | Fully Remote</span></div>
+  <div class="role">Full Stack Developer – Angular / NestJS / MySQL</div>
+  <ul>
+    <li><b>End-to-End Development:</b> Launched a complete e-commerce website for a startup client using Angular, NestJS, and MySQL, covering the customer-facing storefront and the backend services behind it.</li>
+    <li><b>Admin Panel:</b> Crafted an admin panel for product management, allowing the team to add, update, and organize products without developer help.</li>
+    <li><b>Backend &amp; Database:</b> Wrote RESTful APIs in NestJS and modeled MySQL tables to store product and application data.</li>
+    <li><b>Maintenance &amp; Support:</b> Kept the live site running smoothly through post-launch maintenance, bug fixes, and feature updates.</li>
+    <li><b>Remote Startup Environment:</b> Drove features independently in a fully remote, fast-paced startup, communicating progress and blockers clearly.</li>
+  </ul>
+</section>
+
+<h2>Projects</h2>
+<ul>
+  <li><b>Centralized Notification Service</b> (Python, FastAPI, PostgreSQL, RabbitMQ, Redis, Docker) – in progress: Prototyping a 4-channel notification service (Email, SMS, WhatsApp, Push) with a staging, validation, and production flow, queue-based channel workers, and a tracked status lifecycle (Pending, Processing, Completed, Acknowledged, Failed / Retry / Dead-Letter Queue).</li>
+  <li><b>S3 Document Processing &amp; Retrieval System</b> (Node.js, AWS S3): Streamlined batch document retrieval from Excel datasets containing 100,000+ records, cutting manual retrieval effort by 80%.</li>
+  <li><b>StudyNotion – E-Learning Platform</b> (Angular, Node.js): Launched a full stack e-learning platform with authentication, course management, RESTful APIs, RBAC, and reusable frontend components, serving 500+ users in the pilot phase.</li>
+</ul>
+
+<h2>Education</h2>
+<div class="jh"><strong>Mahatma Gandhi Central University</strong><span class="meta">Oct 2019 – Oct 2023 | Motihari, Bihar</span></div>
+<div class="role">B.Tech in Computer Science and Information Technology | CGPA: 7.56/10</div>
+
+<h2>Honors and Awards</h2>
+<ul>
+  <li><b>Quarterly Best Performer Award</b> – Recognized by StatifyAlgo Pvt. Ltd. for consistent high-quality production delivery.</li>
+  <li><b>Photographic Excellence Award</b> – Won a university-level photography competition.</li>
+</ul>
+</main>
+<p class="dl">PDF copy available on request.</p>
+
+<script>
+document.querySelectorAll('.copy').forEach(function(b){
+  b.addEventListener('click',function(){
+    var v=b.getAttribute('data-v');
+    var done=function(){b.textContent='Copied';setTimeout(function(){b.textContent='Copy'},1500)};
+    try{navigator.clipboard.writeText(v).then(done,function(){sel(b)});}catch(e){sel(b)}
+  });
+});
+function sel(b){var s=b.previousElementSibling,r=document.createRange();r.selectNodeContents(s);var g=getSelection();g.removeAllRanges();g.addRange(r);}
+</script>
